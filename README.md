@@ -1,5 +1,7 @@
 # 🗳️ Moulin-Mechanismus – Kosten teilen, wenn niemand ehrlich sein muss
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-moulin-demo.streamlit.app/)**
+
 Neuntes Stück der **Spieltheorie-&-Mechanism-Design-Linie** der "Konzepte"-Reihe im Portfolio von
 [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning, und Nachfolger von [kern-demo](https://sebastianhanisch-kern-demo.streamlit.app/) im zweiten Ast
 (kooperative Spieltheorie). Bisher war bekannt, was jeder Spediteur wert ist; hier ist die **Zahlungsbereitschaft privat**, und jeder kann bei der Anmeldung lügen.
