@@ -355,7 +355,7 @@ st.markdown(
 | **Kostendeckung und Effizienz zugleich** | Unmöglich: budgetausgeglichene, strategiesichere Mechanismen sind nicht wohlfahrtsmaximal, und der wohlfahrtsmaximale macht Verlust (Moulin/Shenker 2001; Experiment oben). | – |
 | **Jeder Spediteur hat einen Stopp und eine Zahlungsbereitschaft** | Mit mehreren Stopps oder Wertfunktionen über Gruppen von Stopps wird aus der Frage "bedient oder nicht" eine kombinatorische Auktion. | auction-demo (Auktionen, VCG) |
 | **Kosten und Werte in derselben Einheit** | Der Nutzen ist quasi-linear (Wert minus Zahlung); Budgetgrenzen und Risikoscheu sind nicht abgebildet. | – |
-| **Die Kosten kennt der Mechanismus** | Hier sind die Kosten öffentlich bekannt (Tourlängen); Bieter, die sie melden, könnten sie verzerren. | Myerson-Satterthwaite (Ausblick) |
+| **Die Kosten kennt der Mechanismus** | Hier sind die Kosten öffentlich bekannt (Tourlängen); Bieter, die sie melden, könnten sie verzerren. | myerson-satterthwaite-demo (Nachfolger) |
 """
 )
 st.caption(
@@ -390,6 +390,6 @@ Implementiert in `mo_shares.py` (Anteile), `mo_mechanisms.py` (Mechanismen, Lüg
 st.markdown("---")
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Spieltheorie: von Nash bis Myerson-Satterthwaite](https://sebastianhanisch.net/konzepte-spieltheorie.html)."
 )

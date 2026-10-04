@@ -61,7 +61,7 @@ Damit sind Einzel-Lügen und Zweier-Absprachen **vollständig** geprüft. Beim V
 | **Kostendeckung und Effizienz zugleich** | Unmöglich: strategiesichere, budgetausgeglichene Mechanismen sind nicht wohlfahrtsmaximal, der wohlfahrtsmaximale macht Verlust (Moulin/Shenker 2001; hier gemessen). | – |
 | **Jeder Spediteur hat einen Stopp und einen Wert** | Mit mehreren Stopps oder Werten für Gruppen von Stopps wird die Frage "bedient oder nicht" zur kombinatorischen Auktion. | auction-demo |
 | **Quasilineare Nutzen** | Wert minus Zahlung; Budgetgrenzen und Risikoscheu sind nicht abgebildet. | – |
-| **Die Kosten sind öffentlich** | Hier kennt der Mechanismus die Tourlängen; wer sie meldet, könnte sie verzerren. | Myerson-Satterthwaite (Ausblick) |
+| **Die Kosten sind öffentlich** | Hier kennt der Mechanismus die Tourlängen; wer sie meldet, könnte sie verzerren. | myerson-satterthwaite-demo (Nachfolger) |
 
 Die Vergleichs- und Faktor-Messungen gelten für diese Vehikelfamilie und die genannten Größen (6 bis 8 Spediteure), die Zweier-Absprachen beim VCG-Mechanismus sind eine untere Grenze (Gitter). Dass beim Shapley-Mechanismus
 nur 1 Lüge in 600 Profilen gefunden wurde, sagt nichts darüber, dass es bei anderen Wert-Verteilungen nicht häufiger ist.
@@ -92,7 +92,7 @@ großzügigen Bändern).
 
 ## Bewusst nicht umgesetzt
 
-- Myerson-Satterthwaite (private Kosten und Werte beidseitig): optionales Stück 10 der Linie.
+- Myerson-Satterthwaite (private Kosten und Werte beidseitig): eigenes Stück 10 der Linie ([myerson-satterthwaite-demo](https://sebastianhanisch-myerson-satterthwaite-demo.streamlit.app/)).
 - Mehr als 9 Spediteure (alle $2^n$ Gruppen und ihre Touren in Python) und Absprachen zu dritt.
 - Weitere kreuzmonotone Verfahren (Jain/Vazirani-Moat-Growing) – die Folk-Anteile genügen als Gegenpol.
 - Ein PDF-Export – wie bei den anderen Konzepte-Demos dieses Portfolios nicht Teil der Linie.
@@ -107,3 +107,7 @@ streamlit run app.py
 ```
 
 Gebaut mit Streamlit, Plotly und numpy.
+
+---
+
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Spieltheorie: von Nash bis Myerson-Satterthwaite](https://sebastianhanisch.net/konzepte-spieltheorie.html).
