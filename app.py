@@ -63,7 +63,7 @@ st.markdown(
 Bisher war in dieser Linie bekannt, was jeder Spediteur wert ist. Hier weiß das nur er selbst: seine **Zahlungsbereitschaft** $v_i$ - was ihm die gemeinsame Tour höchstens wert ist - ist privat, und er kann
 bei der Anmeldung lügen. Ein **Mechanismus** legt fest, wer mitfährt und wer wie viel zahlt, allein aus den genannten Geboten. Der **Moulin-Mechanismus** (Moulin/Shenker 2001) macht ehrliches Bieten - auch in
 Gruppen - zur besten Strategie, verlangt dafür aber ein Kostenteilungsverfahren mit einer Zusatzeigenschaft, der **Kreuzmonotonie**. Die Demo zeigt, wann das gelingt: mit dem Shapley-Wert der Vorgänger-Stücke
-gelingt es in diesem Tourenspiel fast nie - eine Alternative über den Spannbaum gelingt immer, kostet aber Wohlfahrt.
+gelingt es in diesem Tourenspiel nur bei kleinen Gruppen und auch dort nicht immer (gleichmäßig verteilte Stopps: 43 % der Instanzen bei 5 Spediteuren, 0 % bei 8) - eine Alternative über den Spannbaum gelingt immer, kostet aber Wohlfahrt.
 """
 )
 st.caption(
